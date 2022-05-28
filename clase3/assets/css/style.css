@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    color: blue;
+    font-size: 48px;
+    margin: 10px;
+}
+
+.encabezado p {
+    color: brown;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.tarjeta p {
+    color: black;
+    font-size: 16px;
+    width: 200px;
+}
+
+.tarjeta h4 {
+    font-size: 24px;
+}
+
+.tarjeta img {
+    width: 200px;
+}
+
+.subtitulo {
+    color: chartreuse;
+    margin: 10px;
+
+}
+
+.tamanioSubtitulo{
+    font-size: 30px;
+
+}
+
+.promociones {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(125, 107, 189);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.promociones p {
+    font-size: 16px;
+}
+
+
+.comentario {
+    color: blue;
+}
+
+.infoNosotros {
+    width: 100%;
+}
+.infoNosotros p {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.fondoImagen{
+    background-image: url(../img/paisaje.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:top;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/auto1.jpg" type="image/x-icon">
+    <title>Contactos</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./contactos.html">Contactos</a>
+        <a href="./productos.html">Productos</a>
+        <a href="./nosotros.html">Nosotros</a>
+        <a href="./ubicacion.html">Ubicacion</a>
+    </nav>
+    <header>
+        <h1>Contactos</h1>
+    </header>
+
+    <main>
+        <form action="backend.php" method="get" enctype="multipart/form-data">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <label for="dni">DNI :</label>
+            <input type="number" name="dni" id="dni" placeholder="Ingrese su dni" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su Email" required>
+            <br>
+            <br>
+            <textarea name="comentario">Ingrese comentario</textarea>
+            <div>
+                <div>Hombre</div>
+                <input type="radio" name="sexo" value="hombre" checked>
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="mujer">
+                <div>No binario</div>
+                <input type="radio" name="sexo" value="noBinario">
+            </div>
+
+            <select name="talle" required >
+                <option value="">Sin Seleccionar</option>
+                <option value="l">Large</option>
+                <option value="m">Medium</option>
+                <option value="s">small</option>
+            </select>
+
+            
+            <div>
+                <label for="acepto">Acepta terminos y condiciones</label>
+                <input type="checkbox" name="acepto" id="acepto" value="si" required>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar" >
+        </form>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <h5>©2022 maxirosanda, todos los derechos reservados</h5>
+    </footer>
+</body>
+</html>

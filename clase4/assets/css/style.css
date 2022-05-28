@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tarjeta{
+    width: 300px;
+    margin: 10px;
+}
+.tarjeta__titulo{
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+}
+.tarjeta__descripcion{
+    text-align: center;
+    margin:8px
+
+}
+.tarjeta__img{
+    width: 80%;
+    margin-left:10% ;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin:10px;
+    font-size: 20px;
+}
+
+.tarjeta__descripcion--negrita{
+    font-weight: 800;
+}
+
+.promociones{
+    width: 80%;
+    margin: 10%;
+    
+}
+.promociones__titulo{
+    text-align: center;
+    font-size: 40px;
+}
+.promociones__descripcion{
+    font-size: 24px;
+    text-align: center;
+}
+
+.caja{
+    width: 300px;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: 5px solid rgb(26, 0, 128);
+    margin: 15px 10px;
+
+
+
+}
+.caja2{
+    width: 200px;
+    font-size: 30px;
+    height: 100px;
+    background-color: blue;
+    padding: 10px;
+    overflow:hidden;
+}
+
+.spanLinea{
+    width: 100px;
+    height: 200px;
+}
+.pBloque{
+    display: block;
+    background-color: cyan;
+}
