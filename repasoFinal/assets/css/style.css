@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
@@ -48,22 +49,28 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white
+    color:white;
+    position: relative;
+    margin-bottom: 60px;
 }
 
 .tarjeta{
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px;
+    padding: 10px 5px;
     border: 1px solid #000;
     border-radius: 10px;
     margin: 10px;
 }
 
 .tarjeta__desc{
-    margin-top: 10px;
+    margin: 10px 0px;
+}
+
+.tarjeta__img{
+    width: 100%;
 }
 .btn{
     background-color:#001850 ;
@@ -84,7 +91,65 @@ footer{
     color: white;
     font-size: 24px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 
+}
+
+.encabezadoBtn{
+    position: absolute;
+    top:270px;
+    left: 1100px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+
+/* Contactos */
+.formContacto {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formContacto__input{
+    width: 350px;
+    padding: 15px;
+    margin: 5px 0px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.formContacto__btn {
+    width: 300px;
+    font-size: 20px;
+    margin: 15px 0px;
+
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.infoContacto{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+.infoContacto__dato{
+    display: flex;
+    margin: 20px;
+    font-size: 24px;
+}
+.mapa{
+    width: 100%;
+}
+.infoContacto__dato h5{
+    margin: 0px 10px;
+}
+.encabezado--contactos{
+    background-image: url(../) ;
 }
